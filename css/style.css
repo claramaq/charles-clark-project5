@@ -1,0 +1,269 @@
+body {
+  background-color: #001c30;
+  color: #dafffb !important;
+  background-image: linear-gradient(#001c30, #2d4356);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  font-family: Garamond;
+  font-size: 1rem;
+}
+
+body .icon {
+  filter: brightness(0) invert(1);
+  width: 50px;
+  text-decoration: none;
+}
+
+body h1,
+body h2 {
+  font-family: Arial;
+  color: #e0f2f0;
+  margin: 25px 0px;
+  font-size: 1.75rem;
+  text-indent: 1rem;
+}
+
+body h1:after,
+body h2:after {
+  display: block;
+  background: rgba(100, 204, 197, 0.2509803922);
+  content: "";
+  margin-top: 5px;
+  height: 3px;
+  width: 100%;
+}
+
+header {
+  background-color: #176887;
+}
+
+header header > span {
+  align-content: right;
+}
+
+header label .icon {
+  margin-right: 10px;
+}
+
+main {
+  position: relative;
+  top: 50px;
+  margin-bottom: 100px;
+}
+
+main div {
+  margin: auto;
+  width: 75%;
+  align-items: center;
+  display: grid;
+  padding: 5px 0px;
+}
+
+main div blockquote:nth-child(odd) {
+  background-color: #2d4356;
+  border-radius: 15px;
+  padding: 5px;
+  width: 100%;
+}
+
+main div blockquote:nth-child(even) {
+  background-color: #176887;
+  border-radius: 15px;
+  padding: 5px;
+  width: 100%;
+}
+
+main blockquote {
+  margin-bottom: 50px;
+}
+
+main blockquote .img-profile {
+  border-radius: 10%;
+  max-width: 150px;
+  float: left;
+  margin: 5px 15px;
+}
+
+main blockquote .img-thumbnail {
+  border-radius: 10%;
+  max-width: 150px;
+  float: right;
+  margin: 5px 15px;
+  border: 0px;
+  padding: 0px;
+  background-color: transparent;
+}
+
+main blockquote .card-footer {
+  display: inline-block;
+  opacity: 0.75;
+  padding: 5px 25px;
+  font-size: 0.75rem;
+}
+
+main p {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+main article {
+  padding: 0px 25px 5px 25px;
+}
+
+main .social-box {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+footer {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin: auto;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: #176887;
+}
+
+table.blog {
+  width: 100%;
+  font-family: Monospace;
+}
+
+table.blog th {
+  background-color: #176887;
+  width: 15%;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+table.blog th:nth-child(3) {
+  width: 70%;
+}
+
+table.blog tr {
+  text-align: left;
+  background-color: #3e7a90;
+  font-size: 0.75rem;
+}
+
+table.blog tr:nth-child(odd) {
+  background-color: #176887;
+}
+
+table.blog td {
+  padding: 1px 5px;
+}
+
+table.blog a,
+table.blog a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+table.blog a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+form > table {
+  width: 100%;
+}
+
+form > table .email {
+  width: 99%;
+}
+
+form > table input::-moz-placeholder, form > table textarea::-moz-placeholder {
+  color: #001c30;
+  font-weight: 600;
+  font-family: Arial;
+  font-size: 0.75rem;
+}
+
+form > table input::placeholder,
+form > table textarea::placeholder {
+  color: #001c30;
+  font-weight: 600;
+  font-family: Arial;
+  font-size: 0.75rem;
+}
+
+form > table #message {
+  resize: none;
+}
+
+form > table .send {
+  background-color: #001c30;
+  border: none;
+  color: #dafffb;
+  width: 99%;
+  text-align: center;
+}
+
+form > table .send:hover {
+  background-color: #176887;
+  transition: 1s;
+}
+
+form > table .send:active {
+  color: #001c30;
+  background-color: #dafffb;
+}
+
+.sub {
+  background-color: #ef6262;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #fff;
+  height: 50px;
+  min-width: 300px;
+  width: 25vw;
+  border: 0;
+  margin: auto;
+}
+
+.sub:hover {
+  box-shadow: 5px 5px #001c30;
+}
+
+.sub:active {
+  background-color: #fff;
+  color: #ef6262;
+}
+
+@media (max-width: 580px) {
+  body {
+    overflow-x: hidden;
+  }
+  body main {
+    margin-bottom: 50px;
+  }
+  body main div,
+  body main blockquote {
+    width: 100%;
+    border-radius: 0px !important;
+  }
+  body main div .send,
+  body main blockquote .send {
+    margin-left: -1%;
+    width: 102%;
+  }
+  body main div .email,
+  body main blockquote .email {
+    left: 2px;
+    margin: auto;
+  }
+  body main div .icon,
+  body main blockquote .icon {
+    width: 35px;
+  }
+  body footer {
+    position: relative;
+    margin-top: auto;
+  }
+} 
