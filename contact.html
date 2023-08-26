@@ -1,247 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta
-			http-equiv="X-UA-Compatible"
-			content="IE=edge"
-		/>
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0"
-		/>
-		<link
-			rel="shortcut icon"
-			href="media/bunny-icon.png"
-		/>
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-			crossorigin="anonymous"
-		/>
-		<link
-			rel="stylesheet"
-			href="css/style.css"
-		/>
-		<meta
-			name="keywords"
-			content="charles clark, software development, projects, correlation one, developer site, contact, contact me"
-		/>
-		<meta
-			name="description"
-			content="Contact me, Charles Clark, for job or project inquries, or to collaborate on project."
-		/>
-		<title>Charles Clark - Contact</title>
-	</head>
 
-	<body>
-		<!--Header/Nav-->
-		<header class="navbar navbar-expand-md navbar-dark">
-			<div class="container">
-				<label
-					for="navbar-owner"
-					class="navbar-brand"
-				>
-					<img
-						src="media/bunny-icon.png"
-						alt="bunny"
-						class="icon"
-					/>Charles Clark
-				</label>
-				<button
-					class="navbar-toggler"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbar"
-					aria-control="navbar"
-					aria-expanded="false"
-					aria-label="toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<nav
-					class="collapse navbar-collapse"
-					id="navbar"
-				>
-					<ul class="navbar-nav gap-2 me-auto mb-2 mb-md-0">
-						<li class="nav-item">
-							<a
-								class="nav-link"
-								href="index.html"
-								>Home</a
-							>
-						</li>
-						<li class="nav-item">
-							<a
-								class="nav-link"
-								href="about.html"
-								>About</a
-							>
-						</li>
-						<li class="nav-item">
-							<a
-								class="nav-link"
-								href="projects.html"
-								>Projects</a
-							>
-						</li>
-						<li class="nav-item">
-							<a
-								class="nav-link active"
-								href="contact.html"
-								>Contact</a
-							>
-						</li>
-					</ul>
-					<form
-						role="search"
-						class="d-flex"
-					>
-						<input
-							type="text"
-							class="search me-2"
-							aria-label="Search"
-							id="search"
-							placeholder=" Search"
-						/>
-						<button
-							for="search"
-							type="submit"
-							class="btn btn-secondary"
-						>
-							Go
-						</button>
-					</form>
-				</nav>
-			</div>
-		</header>
-		<!--Call to Action-->
-		<main>
-			<div>
-				<h1>Get In Touch</h1>
-				<form action="email.html">
-					<table>
-						<tr>
-							<td>
-								<input
-									type="text"
-									id="name"
-									class="email"
-									placeholder="Name"
-								/><br />
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<input
-									type="text"
-									id="email"
-									class="email"
-									placeholder="E-mail"
-								/><br />
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<textarea
-									id="message"
-									class="email"
-									placeholder="Message"
-								></textarea
-								><br />
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<input
-									class="send"
-									type="submit"
-									value="Send"
-								/>
-							</td>
-						</tr>
-					</table>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="media/bunny-icon.png" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/style.css" />
+	<meta name="keywords"
+		content="charles clark, software development, projects, correlation one, developer site, contact, contact me" />
+	<meta name="description"
+		content="Contact me, Charles Clark, for job or project inquries, or to collaborate on project." />
+	<title>Charles Clark - Contact</title>
+</head>
+
+<body>
+	<!--Header/Nav-->
+	<header class="navbar navbar-expand-md navbar-dark">
+		<div class="container">
+			<label for="navbar-owner" class="navbar-brand">
+				<img src="media/bunny-icon.png" alt="bunny" class="icon" />Charles Clark
+			</label>
+			<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar" aria-control="navbar"
+				aria-expanded="false" aria-label="toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<nav class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav gap-2 me-auto mb-2 mb-md-0">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							About
+						  </a>
+						<ul class="dropdown-menu bg-dark me-auto, mb-2, mb-lg-0, me-2 ps-3">
+							<li class="nav-item"><a href="about.html" class="nav-link">About Me</a></li>
+							<li class="nav-item"><a href="resume.html" class="nav-link">My resume</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="projects.html">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="contact.html"><h1>Contact</h1></a>
+					</li>
+				</ul>
+				<form role="search" class="d-flex">
+					<input type="text" class="search me-2" aria-label="Search" id="search" placeholder=" Search" />
+					<button for="search" type="submit" class="btn btn-secondary">
+						Go
+					</button>
 				</form>
-			</div>
+			</nav>
+		</div>
+	</header>
+	<!--Call to Action-->
+	<main>
+		<div>
+			<h2>Get In Touch</h2>
+			<form action="email.html">
+				<table>
+					<tr>
+						<td>
+							<input type="text" id="name" class="email" placeholder="Name" /><br />
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" id="email" class="email" placeholder="E-mail" /><br />
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<textarea id="message" class="email" placeholder="Message"></textarea><br />
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input class="send" type="submit" value="Send" />
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
 
-			<div>
-				<h2>Subscribe</h2>
-				<p>
-					Want to stay up to date with my progress and maybe learn along with me
-					in my journey?
-				</p>
-				<input
-					type="button"
-					value="Subscribe for Project Updates"
-					alt="Subscribe via E-mail for project updates."
-					class="sub"
-					href="/success_email_list.html"
-				/>
-			</div>
-
-			<div class="social-box">
-				<p>
-					<a
-						href="https://twitter.com/"
-						target="_blank"
-						class="icon"
-					>
-						<img
-							src="media/twitter-icon.svg"
-							alt="twitter"
-							class="icon"
-						/>
-					</a>
-					<a
-						href="https://youtube.com"
-						class="icon"
-						target="_blank"
-					>
-						<img
-							src="media/youtube-icon.svg"
-							alt="youtube"
-							class="icon"
-						/>
-					</a>
-					<a
-						href="https://www.linkedin.com/in/charles-clark-207a48200/"
-						class="icon"
-						target="_blank"
-					>
-						<img
-							src="media/linkedin.svg"
-							alt="linkedin"
-							class="icon"
-						/>
-					</a>
-					<a
-						href="https://facebook.com"
-						class="icon"
-						target="_blank"
-					>
-						<img
-							src="media/fb-icon.svg"
-							alt="facebook"
-							class="icon"
-						/>
-					</a>
-				</p>
-			</div>
-		</main>
-
-		<!--Footer-->
-		<footer>
-			<p class="end">
-				&copy; 2023 Charles Clark. All rights reserved.<br />
-				Fort Worth, Tx <br />
-				charlesclark@charlesclark.com
+		<div>
+			<h2>Subscribe</h2>
+			<p>
+				Want to stay up to date with my progress and maybe learn along with me
+				in my journey?
 			</p>
-		</footer>
+			<input type="button" value="Subscribe for Project Updates" alt="Subscribe via E-mail for project updates."
+				class="sub" href="/success_email_list.html" />
+		</div>
 
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-			crossorigin="anonymous"
-		></script>
-	</body>
+		<div class="social-box">
+			<p>
+				<a href="https://twitter.com/" target="_blank" class="icon">
+					<img src="media/twitter-icon.svg" alt="twitter" class="icon" />
+				</a>
+				<a href="https://youtube.com" class="icon" target="_blank">
+					<img src="media/youtube-icon.svg" alt="youtube" class="icon" />
+				</a>
+				<a href="https://www.linkedin.com/in/charles-rae-clark/" class="icon" target="_blank">
+					<img src="media/linkedin.svg" alt="linkedin" class="icon" />
+				</a>
+				<a href="https://facebook.com" class="icon" target="_blank">
+					<img src="media/fb-icon.svg" alt="facebook" class="icon" />
+				</a>
+			</p>
+		</div>
+	</main>
+
+	<!--Footer-->
+	<footer>
+		<p class="end">
+			&copy; 2023 Charles Clark. All rights reserved.<br />
+			Fort Worth, Tx <br />
+			claramaq1@gmail.com
+		</p>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+		crossorigin="anonymous"></script>
+</body>
+
 </html>

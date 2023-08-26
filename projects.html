@@ -1,182 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="media/bunny-icon.png" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <meta
-      name="keywords"
-      content="charles clark, software development, projects, correlation one, developer site, project lists, html, css, bootstrap, javascript"
-    />
-    <meta
-      name="description"
-      content="View my projects on Codepen and gitHub to get a better feel for my style and skill set."
-    />
-    <title>Charles Clark - Projects</title>
-  </head>
 
-  <body>
-    <!--Header/Nav-->
-    <header class="navbar navbar-expand-md navbar-dark">
-      <div class="container">
-        <label for="navbar-owner" class="navbar-brand">
-          <img src="media/bunny-icon.png" alt="bunny" class="icon" />Charles
-          Clark
-        </label>
-        <button
-          class="navbar-toggler"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbar"
-          aria-control="navbar"
-          aria-expanded="false"
-          aria-label="toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <nav class="collapse navbar-collapse" id="navbar">
-          <ul class="navbar-nav gap-2 me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-          <form role="search" class="d-flex">
-            <input
-              type="text"
-              class="search me-2"
-              aria-label="Search"
-              id="search"
-              placeholder=" Search"
-            />
-            <button for="search" type="submit" class="btn btn-secondary">
-              Go
-            </button>
-          </form>
-        </nav>
-      </div>
-    </header>
-    <!--Blog-->
-    <main>
-      <div>
-        <blockquote>
-          <h1>Project Blog</h1>
-          <article>
-            <p>
-              A list of my projects: what I was aiming for, what I acheived,
-              what problems I ran into, and what I learned along the way. With
-              time, I will flesh out more like a blog post with each project
-              having an image to click on that will send to separate post with
-              more information on that project in particular.
-            </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="media/bunny-icon.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="keywords"
+    content="charles clark, software development, projects, correlation one, developer site, project lists, html, css, bootstrap, javascript" />
+  <meta name="description"
+    content="View my projects on Codepen and gitHub to get a better feel for my style and skill set." />
+  <title>Charles Clark - Projects</title>
+</head>
 
-            <table class="blog">
-              <tr>
-                <th>Project</th>
-                <th>Date</th>
-                <th>Notes</th>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://codepen.io/Charles-Clark/pen/QWJBQgX"
-                    target="_blank"
-                    >About Me</a
-                  >
-                </td>
-                <td>July 22, 2023</td>
-                <td>
-                  I had a lot of trouble coming up with the content and I
-                  furthered my understanding on the different effects of padding
-                  on the &lt;p&gt; tags.
-                </td>
-              </tr>
+<body>
+  <!--Header/Nav-->
+	<header class="navbar navbar-expand-md navbar-dark">
+		<div class="container">
+			<label for="navbar-owner" class="navbar-brand">
+				<img src="media/bunny-icon.png" alt="bunny" class="icon" />Charles Clark
+			</label>
+			<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar" aria-control="navbar"
+				aria-expanded="false" aria-label="toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<nav class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav gap-2 me-auto mb-2 mb-md-0">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							About
+						  </a>
+						<ul class="dropdown-menu bg-dark me-auto, mb-2, mb-lg-0, me-2 ps-3">
+							<li class="nav-item"><a href="about.html" class="nav-link">About Me</a></li>
+							<li class="nav-item"><a href="resume.html" class="nav-link">My resume</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="projects.html"><h1>Projects</h1></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+				<form role="search" class="d-flex">
+					<input type="text" class="search me-2" aria-label="Search" id="search" placeholder=" Search" />
+					<button for="search" type="submit" class="btn btn-secondary">
+						Go
+					</button>
+				</form>
+			</nav>
+		</div>
+	</header>
+  <!--Blog-->
+  <main>
+    <div>
+      <blockquote>
+        <h2>Project Blog</h2>
+        <article>
+          <p>
+            A list of my projects: what I was aiming for, what I acheived,
+            what problems I ran into, and what I learned along the way. With
+            time, I will flesh out more like a blog post with each project
+            having an image to click on that will send to separate post with
+            more information on that project in particular.
+          </p>
 
-              <tr>
-                <td>
-                  <a
-                    href="https://codepen.io/Charles-Clark/pen/BaGPJOr"
-                    target="_blank"
-                    >Favorite Artist</a
-                  >
-                </td>
-                <td>July 22, 2023</td>
-                <td>
-                  I learned about text-shadows and how to properly get that
-                  image sized in a fashion I was happy with.
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://codepen.io/Charles-Clark/pen/OJawOrR"
-                    target="_blank"
-                    >Home Town</a
-                  >
-                </td>
-                <td>July 22, 2023</td>
-                <td>
-                  I sketched out how I wanted my tables to look before starting
-                  my code. This helped immensely.
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://codepen.io/Charles-Clark/pen/wvQxPmW"
-                    target="_blank"
-                    >Paul Graham</a
-                  >
-                </td>
-                <td>July 22, 2023</td>
-                <td>
-                  This was a fairly easy exact copy of a website, minus the
-                  navigation sidebar.
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://codepen.io/Charles-Clark/pen/zYMLEJw"
-                    target="_blank"
-                    >Hello World</a
-                  >
-                </td>
-                <td>July 22, 2023</td>
-                <td>
-                  This was our first smaller coding project in the course.
-                </td>
-              </tr>
-            </table>
-          </article>
-        </blockquote>
-      </div>
-    </main>
+          <table class="blog">
+            <tr>
+              <th>Project</th>
+              <th>Date</th>
+              <th>Notes</th>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://codepen.io/Charles-Clark/pen/QWJBQgX" target="_blank">About Me</a>
+              </td>
+              <td>July 22, 2023</td>
+              <td>
+                I had a lot of trouble coming up with the content and I
+                furthered my understanding on the different effects of padding
+                on the &lt;p&gt; tags.
+              </td>
+            </tr>
 
-    <!--Footer-->
-    <footer>
-      <p class="end">&copy; 2023 Charles Clark. All rights reserved.<br /></p>
-    </footer>
+            <tr>
+              <td>
+                <a href="https://codepen.io/Charles-Clark/pen/BaGPJOr" target="_blank">Favorite Artist</a>
+              </td>
+              <td>July 22, 2023</td>
+              <td>
+                I learned about text-shadows and how to properly get that
+                image sized in a fashion I was happy with.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://codepen.io/Charles-Clark/pen/OJawOrR" target="_blank">Home Town</a>
+              </td>
+              <td>July 22, 2023</td>
+              <td>
+                I sketched out how I wanted my tables to look before starting
+                my code. This helped immensely.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://codepen.io/Charles-Clark/pen/wvQxPmW" target="_blank">Paul Graham</a>
+              </td>
+              <td>July 22, 2023</td>
+              <td>
+                This was a fairly easy exact copy of a website, minus the
+                navigation sidebar.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://codepen.io/Charles-Clark/pen/zYMLEJw" target="_blank">Hello World</a>
+              </td>
+              <td>July 22, 2023</td>
+              <td>
+                This was our first smaller coding project in the course.
+              </td>
+            </tr>
+          </table>
+        </article>
+      </blockquote>
+    </div>
+  </main>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!--Footer-->
+  <footer>
+    <p class="end">&copy; 2023 Charles Clark. All rights reserved.<br /></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
